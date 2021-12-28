@@ -1,6 +1,6 @@
 {
-	"name": "forge-ui",
-	"version": "0.0.1-beta.0",
+	"name": "@01jam/forge-ui",
+	"version": "0.0.1-beta.3",
 	"description": "",
 	"bin": "./bin/index.js",
 	"main": "./lib/cjs/index.js",
