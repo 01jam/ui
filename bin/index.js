@@ -7,7 +7,7 @@ const fs = require("fs");
 if (process.argv.length < 3) {
 	console.log("You have to provide a name to your app.");
 	console.log("For example :");
-	console.log("    npx boil-ui my-ui-name");
+	console.log("    npx @01jam/forge-ui my-ui-name");
 	process.exit(1);
 }
 
