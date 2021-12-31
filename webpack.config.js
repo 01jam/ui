@@ -20,7 +20,7 @@ module.exports = {
 		path: path.resolve(__dirname, "lib/umd"),
 		filename: "[name].js",
 		libraryTarget: "umd",
-		library: "MyLib",
+		library: "ui",
 		umdNamedDefine: true,
 	},
 };
