@@ -1,4 +1,4 @@
-![Twitch](https://img.shields.io/twitch/status/01jam?style=social)
+[![Twitch Status](https://img.shields.io/twitch/status/01jam?style=social)](https://www.twitch.tv/01jam)
 
 # ui
 
