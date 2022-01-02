@@ -1,6 +1,7 @@
-const path = require("path");
+import * as path from "path";
+import * as webpack from "webpack";
 
-module.exports = {
+const config: webpack.Configuration = {
 	mode: "production",
 	entry: { index: "./src/index.ts" },
 	devtool: "source-map",
@@ -24,3 +25,5 @@ module.exports = {
 		umdNamedDefine: true,
 	},
 };
+
+export default config;

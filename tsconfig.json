@@ -18,5 +18,10 @@
 		"target": "es5"
 	},
 	"exclude": ["node_modules", "lib"],
-	"include": ["src"]
+	"include": ["src"],
+	"ts-node": {
+		"compilerOptions": {
+			"module": "CommonJS"
+		}
+	}
 }
