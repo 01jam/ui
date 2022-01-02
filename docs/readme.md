@@ -11,6 +11,17 @@ This prepository is a boilerplate to easily create new react ui-kit packages rea
 | [Local testing](#local-testing)                               |
 | [Publishing](#publishing)                                     |
 
+### Expected features
+
+The purpose of this repository is to ship a clean but complete boilerplate to develop and design new ui kit, pass by on [Twitch](https://www.twitch.tv/01jam) to follow the live development of the following features:
+
+| Feature                              | Implemented |
+| :----------------------------------- | :---------- |
+| Full typescript                      | ✅          |
+| Storybook                            | ❎          |
+| Separated CSS files (a.e. variables) | ❎          |
+| All basic HTML templates             | ❎          |
+
 ## Getting Started
 
 You have two options:
