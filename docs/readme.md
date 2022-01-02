@@ -1,3 +1,5 @@
+![Twitch](https://img.shields.io/twitch/status/01jam?style=social)
+
 # ui
 
 This prepository is a boilerplate to easily create new react ui-kit packages ready to be published to npm.
@@ -17,7 +19,7 @@ The purpose of this repository is to ship a clean but complete boilerplate to de
 
 | Feature                              | Implemented |
 | :----------------------------------- | :---------- |
-| Full typescript                      | ✅          |
+| Full Typescript                      | ✅          |
 | Storybook                            | ❎          |
 | Separated CSS files (a.e. variables) | ❎          |
 | All basic HTML templates             | ❎          |
