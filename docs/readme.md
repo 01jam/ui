@@ -2,7 +2,7 @@
 
 # ui
 
-This prepository is a boilerplate to easily create new react ui-kit packages ready to be published to npm.
+This prepository is a boilerplate to easily create new react ui kit packages ready to be published to npm.
 
 | Index                                                         |
 | :------------------------------------------------------------ |
