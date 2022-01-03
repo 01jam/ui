@@ -1,0 +1,25 @@
+.reset {
+	background-color: var(--gray);
+	border: 1px solid var(--black);
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	margin: 0;
+	padding: 0.25em 0.75em;
+	cursor: pointer;
+	border-radius: 2px;
+}
+
+.type {
+	&--DEFAULT {
+	}
+
+	&--ALERT {
+		background-color: var(--orange);
+	}
+
+	&--DANGER {
+		background-color: var(--red);
+	}
+}
