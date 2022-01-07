@@ -13,7 +13,7 @@ const Textarea: FC<TextareaProps> = ({}) => {
 
 	return (
 		<label
-			className={styles.reset}
+			className={styles.container}
 			onClick={(_event) => EditorRef.current?.focus()}
 		>
 			<Editor
