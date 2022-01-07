@@ -1,31 +1,43 @@
 @import "reset.module.scss";
 
 .container,
-.mockInput {
+.mock {
 	display: flex;
+	user-select: none;
 }
 
 .container {
-	.mockInput {
-		align-items: center;
+	.mock {
 		column-gap: 0.25em;
 
-		&::before {
-			content: "";
+		&-input {
 			height: 0.75em;
 			width: 0.75em;
-			border-radius: 0.25em;
-			background: var(--red);
+			border-radius: 0.15em;
+			background: transparent;
+			border: 1px solid var(--black);
+			position: relative;
+
+			&::before {
+				position: absolute;
+				margin: auto;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				content: "";
+				height: 0.35em;
+				width: 0.35em;
+				border-radius: 50%;
+			}
 		}
 	}
 
-	input:checked {
-		opacity: 0.5;
-	}
-
-	input:checked ~ .mockInput {
-		&::before {
-			background: var(--orange);
+	input:checked ~ .mock {
+		.mock-input {
+			&::before {
+				background-color: var(--black);
+			}
 		}
 	}
 }

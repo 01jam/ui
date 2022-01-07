@@ -1,4 +1,6 @@
 .container {
+	position: relative;
+
 	& > input {
 		height: 1px;
 		width: 1px;

@@ -17,7 +17,10 @@ export interface CheckboxProps
 const Checkbox: FC<CheckboxProps> = forwardRef(({ label, ...rest }, ref) => (
 	<label className={styles.container}>
 		<input ref={ref} type={"checkbox"} {...rest} />
-		<div className={styles.mockInput}>{label}</div>
+		<div className={styles.mock}>
+			<div className={styles["mock-input"]} />
+			{label}
+		</div>
 	</label>
 ));
 

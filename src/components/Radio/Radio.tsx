@@ -17,7 +17,10 @@ export interface RadioProps
 const Radio: FC<RadioProps> = forwardRef(({ label, ...rest }, ref) => (
 	<label className={styles.container}>
 		<input ref={ref} type="radio" {...rest} />
-		<div className={styles.mockInput}>{label}</div>
+		<div className={styles.mock}>
+			<div className={styles["mock-input"]} />
+			{label}
+		</div>
 	</label>
 ));
 
