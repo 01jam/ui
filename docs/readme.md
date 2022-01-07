@@ -21,7 +21,7 @@ The purpose of this repository is to ship a clean but complete boilerplate to de
 | :----------------------------------------------------------- | :---------- |
 | Full Typescript                                              | ✅          |
 | [Storybook](https://github.com/storybookjs/storybook/)       | ✅          |
-| [Fantasticon](https://github.com/tancredi/fantasticon)       | ❎          |
+| [Fantasticon](https://github.com/tancredi/fantasticon)       | ⏸️          |
 | All basic HTML inputs [list here](/src/components/todo.todo) | ❎          |
 
 ## Getting Started

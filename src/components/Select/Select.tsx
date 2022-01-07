@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import styles from "./select.module.scss";
+// import styles from "./select.module.scss";
 
 export interface SelectProps {}
 

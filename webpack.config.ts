@@ -49,7 +49,7 @@ const commonConfig: webpack.Configuration = {
 				exclude: /node_modules/,
 			},
 			{
-				test: /\.s[ac]ss$/i,
+				test: /\.s?[ac]ss$/i,
 				use: [
 					"style-loader",
 					// MiniCssExtractPlugin.loader,
