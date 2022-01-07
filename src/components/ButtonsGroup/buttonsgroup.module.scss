@@ -1,0 +1,18 @@
+@import "reset.module.scss";
+
+.container {
+	border: 1px solid var(--black);
+	display: flex;
+	width: fit-content;
+	border-radius: 0.25em;
+	overflow: hidden;
+
+	& > input {
+		border: 0;
+		border-radius: 0;
+	}
+
+	& > input + input {
+		border-left: 1px solid var(--black);
+	}
+}

@@ -3,10 +3,10 @@ import { ButtonProps, ButtonType, default as Button } from "./Button";
 import React from "react";
 
 export default {
-	title: "Button",
+	title: "Atoms/Button",
 	component: Button,
 	argTypes: {
-		type: {
+		variant: {
 			options: ButtonType,
 			control: { type: "select" },
 		},
@@ -21,20 +21,20 @@ const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 export const Default: { args?: ButtonProps } = Template.bind({});
 
 Default.args = {
-	label: "Button",
-	type: ButtonType.Default,
+	value: "Button",
+	variant: ButtonType.Default,
 };
 
 export const Alert: { args?: ButtonProps } = Template.bind({});
 
 Alert.args = {
 	...Default.args,
-	type: ButtonType.Alert,
+	variant: ButtonType.Alert,
 };
 
 export const Danger: { args?: ButtonProps } = Template.bind({});
 
 Danger.args = {
 	...Default.args,
-	type: ButtonType.Danger,
+	variant: ButtonType.Danger,
 };
