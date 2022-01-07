@@ -1,10 +1,10 @@
 ✔ @basic-component Button @done(22-01-04 10:36)
 ✔ @basic-component ButtonsGroup @done(22-01-07 07:07)
 ✔ @basic-component Checkbox @done(22-01-07 07:39)
-@basic-component Radio
-@basic-component Select
+@basic-component Checkbox/Switch
 ✔ @basic-component Textfield @done(22-01-07 08:35)
-@basic-component Textarea
-
+✔ @basic-component Textarea @done(22-01-07 08:54)
+✔ @basic-component Radio @done(22-01-07 08:54)
+@basic-component Select
+@basic-component Select/Multi
 @basic-component Range
-@basic-component Switch
